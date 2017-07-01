@@ -1,0 +1,48 @@
+
+body{
+  background-color: #dde0c7;
+}
+}
+* {
+  border: 0;
+  margin:auto;
+  padding:0;
+}
+a {
+  margin: 10px;
+  padding-top: 15px;
+  size: 20px;
+  text-align: center;
+  color:#3b3c3d;
+}
+a:hover {
+  size: 30px;
+
+}
+h2 , .newDiv{
+  text-align: center;
+}
+#Email, #Password {
+  width: 500px;
+  padding:10px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+h2 {
+  padding-top: 75px;
+  padding-bottom: 25px;
+  background-color:#dde0c7;
+  margin-top: 0px;
+}
+#button {
+  margin-top: 20px;
+  width: 100px;
+  background-color: #c7dda1;
+  border-radius: 5px;
+}
+ul.nav.nav-tabs {
+background-color: #dde0c7;
+}
+.nav-tabs li.active a {
+background-color: #c7dda1;
+}
