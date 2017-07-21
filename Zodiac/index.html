@@ -15,27 +15,26 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/main.css">
   </head>
-  <body id="body">
-    <!-- class of text-center makes it centered -->
-  <div class="container text-center">
-    <div class="row">
-      <div class="col-xs-12">
-        <h1>Horoscopes</h1>
-          <input type="text" id="input" class="form-control" placeholder="Search">
-            <button type="button" class="btn btn-default" onclick="getHoroscopes()">Search
-            </button>
+  <body>
+    <h1>Zodiac</h1>
+      <div>
+        <form>
+          <input id='input' type='text' placeholder='type here'> </input>
+          <button class='btn' id='success' type='button' onclick='getZodiac()'> Success</button>
+        </form>
       </div>
-    </div>
-  </div>
-<div id='newDiv'>
-</div>
-
-
+      <div id='body'>
+          <h1 id='signHead'></h1>
+          <img id ='img' type ='img'></img>
+          <h3 id = 'DateRange'></h3>
+          <p id= 'personality'></p>
+      </div>
+    <script src="js/main.js"></script>
     <script
     src="https://code.jquery.com/jquery-3.2.1.min.js"
     integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
     crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="js/main.js"></script>
+
   </body>
 </html>

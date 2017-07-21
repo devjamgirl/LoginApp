@@ -1,23 +1,4 @@
-//lesson 1
-// //print hello world to the console
-// console.log("hello world");
-// //print hello world to the page (AKA the document)
-// document.write("hello world")
-// // prints message in pop-up box
-// alert("Kiss me")
-//
-// lesson2
-// var name = prompt("Whats your Name?")
-// console.log(name)
-//
-// // lesson3
-// var one = 12 + 18
-// console.log
-// var two = true
-//
-// var three = "let the sunshine"
-//
-// var four = [33, 20, 22]
+
 var users = [
   {
   email: "romona@email.com",
@@ -36,7 +17,7 @@ var users = [
 function signOn() {
 var address = document.getElementById("Email");
 var pswd = document.getElementById("Password");
-var results = document.getElementById("answer");
+
 
 
 console.log("email is address " + address);
@@ -53,3 +34,10 @@ return
   };
 }
 console.log(signOn())
+// function register() {
+//   var newAddress = document.getElementById("newEmail");
+//   var newPswd = document.getElementById("newPassword");
+//   var newResults = document.getElementById("Answer");
+//
+//   console.lot("new email " + newAddress);
+// }

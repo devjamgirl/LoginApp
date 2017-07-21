@@ -15,27 +15,22 @@
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/main.css">
   </head>
-  <body id="body">
-    <!-- class of text-center makes it centered -->
-  <div class="container text-center">
-    <div class="row">
-      <div class="col-xs-12">
-        <h1>Horoscopes</h1>
-          <input type="text" id="input" class="form-control" placeholder="Search">
-            <button type="button" class="btn btn-default" onclick="getHoroscopes()">Search
-            </button>
-      </div>
+  <body>
+    <ul class="nav nav-tabs">
+        <li role="presentation"><a href="#">Login</a></li>
+        <li role="presentation" class="active"><a href="#">New Account</a></li>
+    </ul>
+  <h2>Create Account</h2>
+    <div class="newDiv">
+        <input id="newEmail" placeholder = "Email Address" type="text"></input> <br>
+        <input id="newPassword" placeholder = "Enter Password" type="password"></input> <br>
+        <button id="button" onclick="register()"> Register</button>
     </div>
-  </div>
-<div id='newDiv'>
-</div>
-
-
     <script
     src="https://code.jquery.com/jquery-3.2.1.min.js"
     integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
     crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="js/main.js"></script>
+<script src="js/main.js"></script>
   </body>
 </html>

@@ -1,0 +1,17 @@
+* {
+  text-align: center;
+  background-image:'img/sky2.jpeg';
+}
+body {
+  background-color:#ffccff;
+}
+input {
+  display: block;
+  width: 500px;
+  height:40px;
+  margin-left: 30%;
+  margin-bottom: 20px;
+}
+h1{
+
+}
