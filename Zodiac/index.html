@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Rancho" rel="stylesheet">
     <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -16,18 +17,20 @@
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
-    <h1>Zodiac</h1>
-      <div>
-        <form>
-          <input id='input' type='text' placeholder='type here'> </input>
-          <button class='btn' id='success' type='button' onclick='getZodiac()'> Success</button>
-        </form>
-      </div>
-      <div id='body'>
-          <h1 id='signHead'></h1>
-          <img id ='img' type ='img'></img>
-          <h3 id = 'DateRange'></h3>
-          <p id= 'personality'></p>
+    <div class='container-fluid'>
+      <h1>Zodiac</h1>
+          <div>
+              <form class= 'container-fluid'>
+                <input id='input' type='text' placeholder='type here'> </input>
+                <button class='btn button' id='success' type='button' onclick='getZodiac()'> Search</button>
+              </form>
+          </div>
+            <div id='body'>
+                  <h2 id='signHead'></h2>
+                  <img id ='img' type ='img'></img>
+                  <h3 id = 'DateRange'></h3>
+                  <p id= 'personality'></p>
+            </div>
       </div>
     <script src="js/main.js"></script>
     <script
